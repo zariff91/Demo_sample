@@ -1,0 +1,980 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tiseno.poplook"
+4    android:versionCode="115"
+5    android:versionName="6.5.2" >
+6
+7    <uses-sdk
+7-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:6:5-73
+8        android:minSdkVersion="19"
+8-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:6:5-73
+9        android:targetSdkVersion="29" />
+9-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:6:5-73
+10
+11    <!-- <uses-feature -->
+12    <!-- android:glEsVersion="0x00020000" -->
+13    <!-- android:required="true" /> -->
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:12:5-67
+15-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:12:22-64
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:13:5-81
+16-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:13:22-78
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:14:5-75
+17-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:14:22-72
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:15:5-79
+18-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:15:22-76
+19    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+19-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:16:5-78
+19-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:16:22-75
+20    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+20-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:17:5-98
+20-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:17:22-95
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:18:5-80
+21-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:18:22-77
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:19:5-76
+22-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:19:22-73
+23    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+23-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:20:5-78
+23-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:20:22-76
+24    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+24-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:21:5-80
+24-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:21:22-78
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:22:5-68
+25-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:22:22-65
+26    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+26-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:23:5-71
+26-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:23:22-68
+27    <uses-permission android:name="android.permission.VIBRATE" />
+27-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:24:5-66
+27-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:24:22-63
+28
+29    <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+30    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+30-->[com.google.android.gms:play-services-gcm:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/0197f5426190403a7540d3d330f73bd6/play-services-gcm-17.0.0/AndroidManifest.xml:23:5-82
+30-->[com.google.android.gms:play-services-gcm:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/0197f5426190403a7540d3d330f73bd6/play-services-gcm-17.0.0/AndroidManifest.xml:23:22-79
+31    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+31-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:14:5-85
+31-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:14:22-82
+32    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+32-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:26:5-110
+32-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:26:22-107
+33    <uses-permission android:name="android.permission.CAMERA" />
+33-->[io.card:android-sdk:5.4.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/f6de2bc83adefc2c3be2a56464958960/jetified-android-sdk-5.4.2/AndroidManifest.xml:9:5-65
+33-->[io.card:android-sdk:5.4.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/f6de2bc83adefc2c3be2a56464958960/jetified-android-sdk-5.4.2/AndroidManifest.xml:9:22-62
+34
+35    <uses-feature
+35-->[io.card:android-sdk:5.4.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/f6de2bc83adefc2c3be2a56464958960/jetified-android-sdk-5.4.2/AndroidManifest.xml:12:5-14:36
+36        android:name="android.hardware.camera"
+36-->[io.card:android-sdk:5.4.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/f6de2bc83adefc2c3be2a56464958960/jetified-android-sdk-5.4.2/AndroidManifest.xml:13:9-47
+37        android:required="false" />
+37-->[io.card:android-sdk:5.4.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/f6de2bc83adefc2c3be2a56464958960/jetified-android-sdk-5.4.2/AndroidManifest.xml:14:9-33
+38    <uses-feature
+38-->[io.card:android-sdk:5.4.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/f6de2bc83adefc2c3be2a56464958960/jetified-android-sdk-5.4.2/AndroidManifest.xml:15:5-17:36
+39        android:name="android.hardware.camera.autofocus"
+39-->[io.card:android-sdk:5.4.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/f6de2bc83adefc2c3be2a56464958960/jetified-android-sdk-5.4.2/AndroidManifest.xml:16:9-57
+40        android:required="false" /> <!-- PUSH NOTIFICATION PERMISSIONS -->
+40-->[io.card:android-sdk:5.4.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/f6de2bc83adefc2c3be2a56464958960/jetified-android-sdk-5.4.2/AndroidManifest.xml:17:9-33
+41    <application
+41-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:27:5-187:19
+42        android:name="com.tiseno.poplook.POPLOOK"
+42-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:28:9-32
+43        android:allowBackup="false"
+43-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:30:9-36
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.1.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/9da8ab50f12964c47ddad8b115688aab/core-1.1.0/AndroidManifest.xml:24:18-86
+45        android:icon="@drawable/ic_launcher_new"
+45-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:31:9-49
+46        android:label="@string/app_name"
+46-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:32:9-41
+47        android:largeHeap="true"
+47-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:33:9-33
+48        android:resizeableActivity="true"
+48-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:36:9-42
+49        android:screenOrientation="portrait"
+49-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:34:9-45
+50        android:supportsRtl="true"
+50-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:35:9-35
+51        android:theme="@style/AppTheme.NoActionBar"
+51-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:38:9-52
+52        android:usesCleartextTraffic="true" >
+52-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:37:9-44
+53        <activity
+53-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:39:9-52:20
+54            android:name="com.tiseno.poplook.MainActivity"
+54-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:40:13-41
+55            android:label="@string/app_name"
+55-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:41:13-45
+56            android:launchMode="singleTask"
+56-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:42:13-44
+57            android:resizeableActivity="true"
+57-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:44:13-46
+58            android:screenOrientation="portrait"
+58-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:43:13-49
+59            android:theme="@style/AppTheme.NoActionBar" >
+59-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:45:13-56
+60            <intent-filter>
+60-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:46:13-51:29
+61                <action android:name="android.intent.action.VIEW" />
+61-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:47:17-69
+61-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:47:25-66
+62
+63                <category android:name="android.intent.category.DEFAULT" />
+63-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:48:17-76
+63-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:48:27-73
+64                <category android:name="android.intent.category.BROWSABLE" />
+64-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:49:17-78
+64-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:49:27-75
+65
+66                <data
+66-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:50:17-104
+67                    android:host="poplook.com"
+67-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:50:45-71
+68                    android:pathPrefix="/en/home"
+68-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:50:72-101
+69                    android:scheme="http" />
+69-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:50:23-44
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:53:9-58:49
+73            android:name="com.tiseno.poplook.functions.TestHTML5WebView"
+73-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:54:13-55
+74            android:hardwareAccelerated="true"
+74-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:58:13-47
+75            android:label="@string/app_name"
+75-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:55:13-45
+76            android:screenOrientation="portrait"
+76-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:56:13-49
+77            android:theme="@style/AppTheme.NoActionBar" />
+77-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:57:13-56
+78        <activity
+78-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:59:9-63:59
+79            android:name="com.tiseno.poplook.CountryPickerFragment"
+79-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:60:13-50
+80            android:label="@string/app_name"
+80-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:61:13-45
+81            android:screenOrientation="portrait"
+81-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:62:13-49
+82            android:theme="@style/AppTheme.NoActionBar" />
+82-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:63:13-56
+83        <activity
+83-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:64:9-68:59
+84            android:name="com.tiseno.poplook.PaypalPaymentActivity"
+84-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:65:13-50
+85            android:label="@string/title_activity_paypal_payment"
+85-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:66:13-66
+86            android:screenOrientation="portrait"
+86-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:67:13-49
+87            android:theme="@style/AppTheme.NoActionBar" />
+87-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:68:13-56
+88
+89        <!-- PAYPAL -->
+90        <service
+90-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:71:9-73:40
+91            android:name="com.paypal.android.sdk.payments.PayPalService"
+91-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:72:13-73
+92            android:exported="false" />
+92-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:73:13-37
+93
+94        <activity
+94-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:75:9-78:59
+95            android:name="com.paypal.android.sdk.payments.PaymentActivity"
+95-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:76:13-75
+96            android:screenOrientation="portrait"
+96-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:77:13-49
+97            android:theme="@style/AppTheme.NoActionBar" />
+97-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:78:13-56
+98        <activity
+98-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:79:9-82:59
+99            android:name="com.paypal.android.sdk.payments.LoginActivity"
+99-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:80:13-73
+100            android:screenOrientation="portrait"
+100-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:81:13-49
+101            android:theme="@style/AppTheme.NoActionBar" />
+101-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:82:13-56
+102        <activity
+102-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:83:9-86:59
+103            android:name="com.paypal.android.sdk.payments.PaymentMethodActivity"
+103-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:84:13-81
+104            android:screenOrientation="portrait"
+104-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:85:13-49
+105            android:theme="@style/AppTheme.NoActionBar" />
+105-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:86:13-56
+106        <activity
+106-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:87:9-90:59
+107            android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity"
+107-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:88:13-82
+108            android:screenOrientation="portrait"
+108-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:89:13-49
+109            android:theme="@style/AppTheme.NoActionBar" />
+109-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:90:13-56
+110        <activity
+110-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:91:9-94:59
+111            android:name="io.card.payment.CardIOActivity"
+111-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:92:13-58
+112            android:configChanges="keyboardHidden|orientation"
+112-->[io.card:android-sdk:5.4.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/f6de2bc83adefc2c3be2a56464958960/jetified-android-sdk-5.4.2/AndroidManifest.xml:22:13-63
+113            android:screenOrientation="portrait"
+113-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:93:13-49
+114            android:theme="@style/AppTheme.NoActionBar" />
+114-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:94:13-56
+115        <activity
+115-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:95:9-98:59
+116            android:name="io.card.payment.DataEntryActivity"
+116-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:96:13-61
+117            android:screenOrientation="portrait"
+117-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:97:13-49
+118            android:theme="@style/AppTheme.NoActionBar" />
+118-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:98:13-56
+119        <!-- PAYPAL -->
+120
+121
+122        <!-- IPAY88 -->
+123
+124
+125        <!-- <activity -->
+126        <!-- android:name="my.com.ipay88.androidsdkmerchanthosted.IPayMHActivity" -->
+127        <!-- android:configChanges="orientation|screenSize" /> -->
+128
+129        <activity
+129-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:109:9-112:16
+130            android:name="com.ipay.IPayIHActivity"
+130-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:110:13-51
+131            android:configChanges="orientation|screenSize" />
+131-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:111:13-59
+132        <activity
+132-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:113:9-116:15
+133            android:name="com.ipay.IPayIHAcitivityR"
+133-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:114:13-53
+134            android:configChanges="orientation|screenSize" />
+134-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:115:13-59
+135        <!-- IPAY88 -->
+136
+137        <activity
+137-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:119:9-123:59
+138            android:name="com.tiseno.poplook.IPay88PaymentActivity"
+138-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:120:13-50
+139            android:label="@string/title_activity_ipay88_payment"
+139-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:121:13-66
+140            android:screenOrientation="portrait"
+140-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:122:13-49
+141            android:theme="@style/AppTheme.NoActionBar" />
+141-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:123:13-56
+142
+143        <service android:name="com.tiseno.poplook.functions.MyFcmListenerService" >
+143-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:125:9-130:19
+143-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:126:13-59
+144            <intent-filter>
+144-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:127:13-129:29
+145                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+145-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:128:17-78
+145-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:128:25-75
+146            </intent-filter>
+147        </service>
+148        <!--
+149      FirebaseInstanceIdService performs security checks at runtime,
+150      no need for explicit permissions despite exported="true"
+151        -->
+152        <!-- <service android:name=".functions.MyFcmListenerService" android:exported="true"> -->
+153        <!-- <intent-filter> -->
+154        <!-- <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/> -->
+155        <!-- </intent-filter> -->
+156        <!-- </service> -->
+157        <!-- &lt;!&ndash; [START gcm_listener] &ndash;&gt; -->
+158
+159        <service
+159-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:140:9-142:40
+160            android:name="com.tiseno.poplook.functions.RegistrationIntentService"
+160-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:141:13-64
+161            android:exported="false" />
+161-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:142:13-37
+162
+163        <activity
+163-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:144:9-148:59
+164            android:name="com.tiseno.poplook.ENetsPaymentActivity"
+164-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:145:13-49
+165            android:label="@string/title_activity_enets_payment"
+165-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:146:13-65
+166            android:screenOrientation="portrait"
+166-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:147:13-49
+167            android:theme="@style/AppTheme.NoActionBar" />
+167-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:148:13-56
+168        <activity
+168-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:149:9-153:59
+169            android:name="com.tiseno.poplook.functions.EGHLStart"
+169-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:150:13-48
+170            android:label="eGHL Payment"
+170-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:151:13-41
+171            android:screenOrientation="portrait"
+171-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:152:13-49
+172            android:theme="@style/AppTheme.NoActionBar" />
+172-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:153:13-56
+173        <activity
+173-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:154:9-158:59
+174            android:name="com.tiseno.poplook.functions.EGHLSaleResult"
+174-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:155:13-53
+175            android:label="eGHL Payment Result"
+175-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:156:13-48
+176            android:screenOrientation="portrait"
+176-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:157:13-49
+177            android:theme="@style/AppTheme.NoActionBar" />
+177-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:158:13-56
+178        <activity
+178-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:159:9-162:59
+179            android:name="com.tiseno.poplook.ChooseCountryActivity"
+179-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:160:13-50
+180            android:screenOrientation="portrait"
+180-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:161:13-49
+181            android:theme="@style/AppTheme.NoActionBar" />
+181-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:162:13-56
+182        <activity
+182-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:163:9-173:20
+183            android:name="com.tiseno.poplook.SplashActivity"
+183-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:164:13-43
+184            android:launchMode="singleInstance"
+184-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:165:13-48
+185            android:screenOrientation="portrait" >
+185-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:166:13-49
+186            <intent-filter>
+186-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:168:13-172:29
+187                <action android:name="android.intent.action.MAIN" />
+187-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:169:17-69
+187-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:169:25-66
+188
+189                <category android:name="android.intent.category.LAUNCHER" />
+189-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:171:17-77
+189-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:171:27-74
+190            </intent-filter>
+191        </activity>
+192        <activity android:name="com.tiseno.poplook.ChooseCountryActivity2" />
+192-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:174:9-60
+192-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:174:19-57
+193
+194        <meta-data
+194-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:176:9-107
+195            android:name="com.facebook.sdk.ApplicationId"
+195-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:176:20-65
+196            android:value="@string/facebook_app_id" />
+196-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:176:66-105
+197        <meta-data
+197-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:178:9-179:35
+198            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+198-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:178:20-75
+199            android:value="true" />
+199-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:179:13-33
+200        <meta-data
+200-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:180:9-181:35
+201            android:name="com.facebook.sdk.AutoInitEnabled"
+201-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:180:20-67
+202            android:value="true" />
+202-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:181:13-33
+203        <meta-data
+203-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:182:9-183:35
+204            android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled"
+204-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:182:20-81
+205            android:value="true" />
+205-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:183:13-33
+206        <meta-data
+206-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:184:9-186:69
+207            android:name="com.google.android.gms.ads.APPLICATION_ID"
+207-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:185:13-69
+208            android:value="ca-app-pub-7719270692211726~2806079163" />
+208-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:186:13-67
+209
+210        <activity
+210-->[:eghl-sdk-v2.2.9] /Users/poplook/Desktop/Workspace/eghl-sdk-v2.2.9/build/.transforms/e72f65c840ed606967136ffc301730ee/jetified-eghl-sdk-v2.2.9/AndroidManifest.xml:17:9-19:62
+211            android:name="com.eghl.sdk.payment.PaymentActivity"
+211-->[:eghl-sdk-v2.2.9] /Users/poplook/Desktop/Workspace/eghl-sdk-v2.2.9/build/.transforms/e72f65c840ed606967136ffc301730ee/jetified-eghl-sdk-v2.2.9/AndroidManifest.xml:18:13-64
+212            android:configChanges="orientation|screenSize" />
+212-->[:eghl-sdk-v2.2.9] /Users/poplook/Desktop/Workspace/eghl-sdk-v2.2.9/build/.transforms/e72f65c840ed606967136ffc301730ee/jetified-eghl-sdk-v2.2.9/AndroidManifest.xml:19:13-59
+213        <activity
+213-->[:eghl-sdk-v2.2.9] /Users/poplook/Desktop/Workspace/eghl-sdk-v2.2.9/build/.transforms/e72f65c840ed606967136ffc301730ee/jetified-eghl-sdk-v2.2.9/AndroidManifest.xml:20:9-22:62
+214            android:name="com.eghl.sdk.masterpass.MasterPassActivity"
+214-->[:eghl-sdk-v2.2.9] /Users/poplook/Desktop/Workspace/eghl-sdk-v2.2.9/build/.transforms/e72f65c840ed606967136ffc301730ee/jetified-eghl-sdk-v2.2.9/AndroidManifest.xml:21:13-70
+215            android:configChanges="orientation|screenSize" />
+215-->[:eghl-sdk-v2.2.9] /Users/poplook/Desktop/Workspace/eghl-sdk-v2.2.9/build/.transforms/e72f65c840ed606967136ffc301730ee/jetified-eghl-sdk-v2.2.9/AndroidManifest.xml:22:13-59
+216        <activity android:name="com.eghl.sdk.popup.PopupActivity" />
+216-->[:eghl-sdk-v2.2.9] /Users/poplook/Desktop/Workspace/eghl-sdk-v2.2.9/build/.transforms/e72f65c840ed606967136ffc301730ee/jetified-eghl-sdk-v2.2.9/AndroidManifest.xml:23:9-69
+216-->[:eghl-sdk-v2.2.9] /Users/poplook/Desktop/Workspace/eghl-sdk-v2.2.9/build/.transforms/e72f65c840ed606967136ffc301730ee/jetified-eghl-sdk-v2.2.9/AndroidManifest.xml:23:19-66
+217
+218        <provider
+218-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/251fd87055d48a0fd53b540fd19c2744/jetified-crashlytics-2.10.1/AndroidManifest.xml:19:9-23:38
+219            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+219-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/251fd87055d48a0fd53b540fd19c2744/jetified-crashlytics-2.10.1/AndroidManifest.xml:20:13-75
+220            android:authorities="com.tiseno.poplook.crashlyticsinitprovider"
+220-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/251fd87055d48a0fd53b540fd19c2744/jetified-crashlytics-2.10.1/AndroidManifest.xml:21:13-75
+221            android:exported="false"
+221-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/251fd87055d48a0fd53b540fd19c2744/jetified-crashlytics-2.10.1/AndroidManifest.xml:22:13-37
+222            android:initOrder="90" />
+222-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/251fd87055d48a0fd53b540fd19c2744/jetified-crashlytics-2.10.1/AndroidManifest.xml:23:13-35
+223
+224        <activity
+224-->[com.karumi:dexter:2.3.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/bae7b5f8505451e96f398d5cb16e1cdb/jetified-dexter-2.3.1/AndroidManifest.xml:27:9-30:56
+225            android:name="com.karumi.dexter.DexterActivity"
+225-->[com.karumi:dexter:2.3.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/bae7b5f8505451e96f398d5cb16e1cdb/jetified-dexter-2.3.1/AndroidManifest.xml:28:13-60
+226            android:launchMode="singleTask"
+226-->[com.karumi:dexter:2.3.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/bae7b5f8505451e96f398d5cb16e1cdb/jetified-dexter-2.3.1/AndroidManifest.xml:29:13-44
+227            android:theme="@style/Theme.Transparent" />
+227-->[com.karumi:dexter:2.3.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/bae7b5f8505451e96f398d5cb16e1cdb/jetified-dexter-2.3.1/AndroidManifest.xml:30:13-53
+228        <activity
+228-->[com.facebook.android:facebook-common:5.15.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/e053cb326236a770d4c785ae1c9d8a02/jetified-facebook-common-5.15.3/AndroidManifest.xml:30:9-33:66
+229            android:name="com.facebook.FacebookActivity"
+229-->[com.facebook.android:facebook-common:5.15.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/e053cb326236a770d4c785ae1c9d8a02/jetified-facebook-common-5.15.3/AndroidManifest.xml:31:13-57
+230            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+230-->[com.facebook.android:facebook-common:5.15.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/e053cb326236a770d4c785ae1c9d8a02/jetified-facebook-common-5.15.3/AndroidManifest.xml:32:13-96
+231            android:theme="@style/com_facebook_activity_theme" />
+231-->[com.facebook.android:facebook-common:5.15.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/e053cb326236a770d4c785ae1c9d8a02/jetified-facebook-common-5.15.3/AndroidManifest.xml:33:13-63
+232        <activity android:name="com.facebook.CustomTabMainActivity" />
+232-->[com.facebook.android:facebook-common:5.15.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/e053cb326236a770d4c785ae1c9d8a02/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:9-71
+232-->[com.facebook.android:facebook-common:5.15.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/e053cb326236a770d4c785ae1c9d8a02/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:19-68
+233        <activity
+233-->[com.facebook.android:facebook-common:5.15.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/e053cb326236a770d4c785ae1c9d8a02/jetified-facebook-common-5.15.3/AndroidManifest.xml:35:9-49:20
+234            android:name="com.facebook.CustomTabActivity"
+234-->[com.facebook.android:facebook-common:5.15.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/e053cb326236a770d4c785ae1c9d8a02/jetified-facebook-common-5.15.3/AndroidManifest.xml:36:13-58
+235            android:exported="true" >
+235-->[com.facebook.android:facebook-common:5.15.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/e053cb326236a770d4c785ae1c9d8a02/jetified-facebook-common-5.15.3/AndroidManifest.xml:37:13-36
+236            <intent-filter>
+236-->[com.facebook.android:facebook-common:5.15.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/e053cb326236a770d4c785ae1c9d8a02/jetified-facebook-common-5.15.3/AndroidManifest.xml:39:13-48:29
+237                <action android:name="android.intent.action.VIEW" />
+237-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:47:17-69
+237-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:47:25-66
+238
+239                <category android:name="android.intent.category.DEFAULT" />
+239-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:48:17-76
+239-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:48:27-73
+240                <category android:name="android.intent.category.BROWSABLE" />
+240-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:49:17-78
+240-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:49:27-75
+241
+242                <data
+242-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:50:17-104
+243                    android:host="cct.com.tiseno.poplook"
+243-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:50:45-71
+244                    android:scheme="fbconnect" />
+244-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:50:23-44
+245            </intent-filter>
+246        </activity>
+247        <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity" />
+247-->[com.paypal.sdk:paypal-android-sdk:2.15.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/aaefc1556b17203e2b9b16a4e3e78e5e/paypal-android-sdk-2.15.1/AndroidManifest.xml:17:9-96
+247-->[com.paypal.sdk:paypal-android-sdk:2.15.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/aaefc1556b17203e2b9b16a4e3e78e5e/paypal-android-sdk-2.15.1/AndroidManifest.xml:17:19-93
+248        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity" />
+248-->[com.paypal.sdk:paypal-android-sdk:2.15.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/aaefc1556b17203e2b9b16a4e3e78e5e/paypal-android-sdk-2.15.1/AndroidManifest.xml:18:9-97
+248-->[com.paypal.sdk:paypal-android-sdk:2.15.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/aaefc1556b17203e2b9b16a4e3e78e5e/paypal-android-sdk-2.15.1/AndroidManifest.xml:18:19-94
+249        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity" />
+249-->[com.paypal.sdk:paypal-android-sdk:2.15.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/aaefc1556b17203e2b9b16a4e3e78e5e/paypal-android-sdk-2.15.1/AndroidManifest.xml:19:9-94
+249-->[com.paypal.sdk:paypal-android-sdk:2.15.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/aaefc1556b17203e2b9b16a4e3e78e5e/paypal-android-sdk-2.15.1/AndroidManifest.xml:19:19-91
+250        <activity android:name="com.paypal.android.sdk.payments.PayPalProfileSharingActivity" />
+250-->[com.paypal.sdk:paypal-android-sdk:2.15.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/aaefc1556b17203e2b9b16a4e3e78e5e/paypal-android-sdk-2.15.1/AndroidManifest.xml:20:9-97
+250-->[com.paypal.sdk:paypal-android-sdk:2.15.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/aaefc1556b17203e2b9b16a4e3e78e5e/paypal-android-sdk-2.15.1/AndroidManifest.xml:20:19-94
+251        <activity android:name="com.paypal.android.sdk.payments.ProfileSharingConsentActivity" />
+251-->[com.paypal.sdk:paypal-android-sdk:2.15.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/aaefc1556b17203e2b9b16a4e3e78e5e/paypal-android-sdk-2.15.1/AndroidManifest.xml:21:9-98
+251-->[com.paypal.sdk:paypal-android-sdk:2.15.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/aaefc1556b17203e2b9b16a4e3e78e5e/paypal-android-sdk-2.15.1/AndroidManifest.xml:21:19-95
+252
+253        <service
+253-->[com.google.firebase:firebase-database:19.2.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/93bee822a8b7e757295d16f4809e2225/firebase-database-19.2.1/AndroidManifest.xml:29:9-35:19
+254            android:name="com.google.firebase.components.ComponentDiscoveryService"
+254-->[com.google.firebase:firebase-database:19.2.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/93bee822a8b7e757295d16f4809e2225/firebase-database-19.2.1/AndroidManifest.xml:30:13-84
+255            android:directBootAware="true"
+255-->[com.google.firebase:firebase-common:19.3.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3d92f1f98fd553c88aafd62c9c336e14/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+256            android:exported="false" >
+256-->[com.google.firebase:firebase-database:19.2.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/93bee822a8b7e757295d16f4809e2225/firebase-database-19.2.1/AndroidManifest.xml:31:13-37
+257            <meta-data
+257-->[com.google.firebase:firebase-database:19.2.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/93bee822a8b7e757295d16f4809e2225/firebase-database-19.2.1/AndroidManifest.xml:32:13-34:85
+258                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+258-->[com.google.firebase:firebase-database:19.2.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/93bee822a8b7e757295d16f4809e2225/firebase-database-19.2.1/AndroidManifest.xml:33:17-109
+259                android:value="com.google.firebase.components.ComponentRegistrar" />
+259-->[com.google.firebase:firebase-database:19.2.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/93bee822a8b7e757295d16f4809e2225/firebase-database-19.2.1/AndroidManifest.xml:34:17-82
+260            <meta-data
+260-->[com.google.firebase:firebase-crash:16.2.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/bd04dfc288bd91b41b7328a6675061f4/jetified-firebase-crash-16.2.1/AndroidManifest.xml:26:13-28:85
+261                android:name="com.google.firebase.components:com.google.firebase.crash.component.FirebaseCrashRegistrar"
+261-->[com.google.firebase:firebase-crash:16.2.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/bd04dfc288bd91b41b7328a6675061f4/jetified-firebase-crash-16.2.1/AndroidManifest.xml:27:17-121
+262                android:value="com.google.firebase.components.ComponentRegistrar" />
+262-->[com.google.firebase:firebase-crash:16.2.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/bd04dfc288bd91b41b7328a6675061f4/jetified-firebase-crash-16.2.1/AndroidManifest.xml:28:17-82
+263            <meta-data
+263-->[com.google.firebase:firebase-config:19.1.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/52447aac2335546585071cc181e72133/firebase-config-19.1.1/AndroidManifest.xml:32:13-34:85
+264                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+264-->[com.google.firebase:firebase-config:19.1.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/52447aac2335546585071cc181e72133/firebase-config-19.1.1/AndroidManifest.xml:33:17-117
+265                android:value="com.google.firebase.components.ComponentRegistrar" />
+265-->[com.google.firebase:firebase-config:19.1.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/52447aac2335546585071cc181e72133/firebase-config-19.1.1/AndroidManifest.xml:34:17-82
+266            <meta-data
+266-->[com.google.firebase:firebase-messaging:20.1.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/10a345197e3806194b384583a76b9c0d/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:38:13-40:85
+267                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+267-->[com.google.firebase:firebase-messaging:20.1.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/10a345197e3806194b384583a76b9c0d/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:39:17-119
+268                android:value="com.google.firebase.components.ComponentRegistrar" />
+268-->[com.google.firebase:firebase-messaging:20.1.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/10a345197e3806194b384583a76b9c0d/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:40:17-82
+269            <meta-data
+269-->[com.google.firebase:firebase-auth:19.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/0526e5d642434e539e1e7fcfcad9e85a/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+270                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+270-->[com.google.firebase:firebase-auth:19.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/0526e5d642434e539e1e7fcfcad9e85a/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+271                android:value="com.google.firebase.components.ComponentRegistrar" />
+271-->[com.google.firebase:firebase-auth:19.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/0526e5d642434e539e1e7fcfcad9e85a/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+272            <meta-data
+272-->[com.google.firebase:firebase-abt:19.0.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/f25a198061e3be046baa2c1ccfe8efa1/firebase-abt-19.0.1/AndroidManifest.xml:13:13-15:85
+273                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+273-->[com.google.firebase:firebase-abt:19.0.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/f25a198061e3be046baa2c1ccfe8efa1/firebase-abt-19.0.1/AndroidManifest.xml:14:17-109
+274                android:value="com.google.firebase.components.ComponentRegistrar" />
+274-->[com.google.firebase:firebase-abt:19.0.1] /Users/poplook/.gradle/caches/transforms-2/files-2.1/f25a198061e3be046baa2c1ccfe8efa1/firebase-abt-19.0.1/AndroidManifest.xml:15:17-82
+275            <meta-data
+275-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fe777ee6baa390087b707b7686b43067/play-services-measurement-api-17.2.2/AndroidManifest.xml:30:13-32:85
+276                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+276-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fe777ee6baa390087b707b7686b43067/play-services-measurement-api-17.2.2/AndroidManifest.xml:31:17-139
+277                android:value="com.google.firebase.components.ComponentRegistrar" />
+277-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fe777ee6baa390087b707b7686b43067/play-services-measurement-api-17.2.2/AndroidManifest.xml:32:17-82
+278            <meta-data
+278-->[com.google.firebase:firebase-iid:20.0.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/94bb33aa82ba4f933abc3a69987472ef/firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
+279                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+279-->[com.google.firebase:firebase-iid:20.0.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/94bb33aa82ba4f933abc3a69987472ef/firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
+280                android:value="com.google.firebase.components.ComponentRegistrar" />
+280-->[com.google.firebase:firebase-iid:20.0.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/94bb33aa82ba4f933abc3a69987472ef/firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
+281            <meta-data
+281-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/d63e26966867a6b50fe807111d1526d9/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+282                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+282-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/d63e26966867a6b50fe807111d1526d9/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+283                android:value="com.google.firebase.components.ComponentRegistrar" />
+283-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/d63e26966867a6b50fe807111d1526d9/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+284            <meta-data
+284-->[com.google.firebase:firebase-dynamic-links:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/c208ba6cc54b40aa8ff825d07f0e32c1/jetified-firebase-dynamic-links-17.0.0/AndroidManifest.xml:9:13-11:85
+285                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+285-->[com.google.firebase:firebase-dynamic-links:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/c208ba6cc54b40aa8ff825d07f0e32c1/jetified-firebase-dynamic-links-17.0.0/AndroidManifest.xml:10:17-133
+286                android:value="com.google.firebase.components.ComponentRegistrar" />
+286-->[com.google.firebase:firebase-dynamic-links:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/c208ba6cc54b40aa8ff825d07f0e32c1/jetified-firebase-dynamic-links-17.0.0/AndroidManifest.xml:11:17-82
+287        </service>
+288        <!--
+289             FirebaseMessagingService performs security checks at runtime,
+290             but set to not exported to explicitly avoid allowing another app to call it.
+291        -->
+292        <service
+292-->[com.google.firebase:firebase-messaging:20.1.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/10a345197e3806194b384583a76b9c0d/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:28:9-34:19
+293            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+293-->[com.google.firebase:firebase-messaging:20.1.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/10a345197e3806194b384583a76b9c0d/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:29:13-82
+294            android:exported="false" >
+294-->[com.google.firebase:firebase-messaging:20.1.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/10a345197e3806194b384583a76b9c0d/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:30:13-37
+295            <intent-filter android:priority="-500" >
+295-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:127:13-129:29
+296                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+296-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:128:17-78
+296-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:128:25-75
+297            </intent-filter>
+298        </service>
+299
+300        <activity
+300-->[com.google.firebase:firebase-auth:19.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/0526e5d642434e539e1e7fcfcad9e85a/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+301            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+301-->[com.google.firebase:firebase-auth:19.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/0526e5d642434e539e1e7fcfcad9e85a/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+302            android:excludeFromRecents="true"
+302-->[com.google.firebase:firebase-auth:19.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/0526e5d642434e539e1e7fcfcad9e85a/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+303            android:exported="true"
+303-->[com.google.firebase:firebase-auth:19.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/0526e5d642434e539e1e7fcfcad9e85a/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+304            android:launchMode="singleTask"
+304-->[com.google.firebase:firebase-auth:19.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/0526e5d642434e539e1e7fcfcad9e85a/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+305            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+305-->[com.google.firebase:firebase-auth:19.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/0526e5d642434e539e1e7fcfcad9e85a/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+306            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+306-->[com.google.firebase:firebase-auth:19.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/0526e5d642434e539e1e7fcfcad9e85a/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+307        <activity
+307-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:20:9-25:64
+308            android:name="com.useinsider.insider.InsiderActivity"
+308-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:21:13-66
+309            android:label="@string/app_name"
+309-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:22:13-45
+310            android:launchMode="singleTask"
+310-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:23:13-44
+311            android:noHistory="true"
+311-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:24:13-37
+312            android:theme="@android:style/Theme.Translucent" />
+312-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:25:13-61
+313        <activity
+313-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:26:9-32:58
+314            android:name="com.useinsider.insider.InsiderInappActivity"
+314-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:27:13-71
+315            android:label="@string/app_name"
+315-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:28:13-45
+316            android:launchMode="singleTask"
+316-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:29:13-44
+317            android:noHistory="true"
+317-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:30:13-37
+318            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+318-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:31:13-72
+319            android:windowSoftInputMode="adjustResize" />
+319-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:32:13-55
+320
+321        <receiver android:name="com.useinsider.insider.InsiderGeofenceReceiver" />
+321-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:34:9-83
+321-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:34:19-80
+322        <receiver
+322-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:35:9-41:20
+323            android:name="com.useinsider.insider.InteractiveDirectionReceiver"
+323-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:36:13-79
+324            android:exported="false" >
+324-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:37:13-37
+325            <intent-filter>
+325-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:38:13-40:29
+326                <action android:name="direction_clicked" />
+326-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:39:17-60
+326-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:39:25-57
+327            </intent-filter>
+328        </receiver>
+329        <receiver
+329-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:42:9-48:20
+330            android:name="com.useinsider.insider.DeleteInteractiveReceiver"
+330-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:43:13-76
+331            android:exported="false" >
+331-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:44:13-37
+332            <intent-filter>
+332-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:45:13-47:29
+333                <action android:name="delete_interactive_broadcast" />
+333-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:46:17-71
+333-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:46:25-68
+334            </intent-filter>
+335        </receiver>
+336        <receiver
+336-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:49:9-55:20
+337            android:name="com.useinsider.insider.DeleteGifReceiver"
+337-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:50:13-68
+338            android:exported="false" >
+338-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:51:13-37
+339            <intent-filter>
+339-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:52:13-54:29
+340                <action android:name="delete_seperate_gif_broadcast" />
+340-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:53:17-72
+340-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:53:25-69
+341            </intent-filter>
+342        </receiver>
+343        <receiver
+343-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:56:9-62:20
+344            android:name="com.useinsider.insider.GifPlayReceiver"
+344-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:57:13-66
+345            android:exported="false" >
+345-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:58:13-37
+346            <intent-filter>
+346-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:59:13-61:29
+347                <action android:name="gif_play_clicked" />
+347-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:60:17-59
+347-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:60:25-56
+348            </intent-filter>
+349        </receiver>
+350
+351        <service
+351-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:64:9-70:19
+352            android:name="com.useinsider.insider.GifPlayService"
+352-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:65:13-65
+353            android:exported="false" >
+353-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:66:13-37
+354            <intent-filter>
+354-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:67:13-69:29
+355                <action android:name="gif_play_service" />
+355-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:68:17-59
+355-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:68:25-56
+356            </intent-filter>
+357        </service>
+358        <service android:name="com.useinsider.insider.InsiderFirebaseMessagingService" >
+358-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:71:9-75:19
+358-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:71:18-87
+359            <intent-filter>
+359-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:127:13-129:29
+360                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+360-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:128:17-78
+360-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:128:25-75
+361            </intent-filter>
+362        </service>
+363        <service android:name="com.useinsider.insider.InsiderHuaweiMessagingService" >
+363-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:76:9-80:19
+363-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:76:18-85
+364            <intent-filter>
+364-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:77:13-79:29
+365                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+365-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:78:17-81
+365-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:78:25-78
+366            </intent-filter>
+367        </service>
+368        <service
+368-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:81:9-83:44
+369            android:name="com.useinsider.insider.IntegrationWizard"
+369-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:82:13-68
+370            android:stopWithTask="false" />
+370-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:83:13-41
+371
+372        <activity
+372-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:85:9-97:20
+373            android:name="com.useinsider.insider.InsiderLoginActivity"
+373-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:86:13-71
+374            android:exported="true"
+374-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:87:13-36
+375            android:noHistory="true" >
+375-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:88:13-37
+376            <intent-filter>
+376-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:89:13-96:29
+377                <action android:name="android.intent.action.VIEW" />
+377-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:47:17-69
+377-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:47:25-66
+378
+379                <category android:name="android.intent.category.DEFAULT" />
+379-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:48:17-76
+379-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:48:27-73
+380                <category android:name="android.intent.category.BROWSABLE" />
+380-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:49:17-78
+380-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:49:27-75
+381
+382                <data android:scheme="insiderpoplook" />
+382-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:50:17-104
+382-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:50:23-44
+383            </intent-filter>
+384        </activity>
+385
+386        <service
+386-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:99:9-105:19
+387            android:name="com.useinsider.insider.OpenUDID_service"
+387-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:100:13-67
+388            android:exported="false" >
+388-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:101:13-37
+389            <intent-filter>
+389-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:102:13-104:29
+390                <action android:name="org.OpenUDID.GETUDID" />
+390-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:103:17-63
+390-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:103:25-60
+391            </intent-filter>
+392        </service>
+393
+394        <receiver android:name="com.useinsider.insider.IconChangeReceiver" />
+394-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:107:9-78
+394-->[com.useinsider:insider:11.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/fabc9d609fb50015648434f4414a871a/insider-11.0.0/AndroidManifest.xml:107:19-75
+395        <receiver
+395-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/a3a83df6a505ff1b30be3943dfd544b0/play-services-analytics-17.0.0/AndroidManifest.xml:30:9-34:20
+396            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+396-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/a3a83df6a505ff1b30be3943dfd544b0/play-services-analytics-17.0.0/AndroidManifest.xml:31:13-78
+397            android:enabled="true"
+397-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/a3a83df6a505ff1b30be3943dfd544b0/play-services-analytics-17.0.0/AndroidManifest.xml:32:13-35
+398            android:exported="false" >
+398-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/a3a83df6a505ff1b30be3943dfd544b0/play-services-analytics-17.0.0/AndroidManifest.xml:33:13-37
+399        </receiver>
+400
+401        <service
+401-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/a3a83df6a505ff1b30be3943dfd544b0/play-services-analytics-17.0.0/AndroidManifest.xml:36:9-39:40
+402            android:name="com.google.android.gms.analytics.AnalyticsService"
+402-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/a3a83df6a505ff1b30be3943dfd544b0/play-services-analytics-17.0.0/AndroidManifest.xml:37:13-77
+403            android:enabled="true"
+403-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/a3a83df6a505ff1b30be3943dfd544b0/play-services-analytics-17.0.0/AndroidManifest.xml:38:13-35
+404            android:exported="false" />
+404-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/a3a83df6a505ff1b30be3943dfd544b0/play-services-analytics-17.0.0/AndroidManifest.xml:39:13-37
+405        <service
+405-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/a3a83df6a505ff1b30be3943dfd544b0/play-services-analytics-17.0.0/AndroidManifest.xml:40:9-44:72
+406            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+406-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/a3a83df6a505ff1b30be3943dfd544b0/play-services-analytics-17.0.0/AndroidManifest.xml:41:13-80
+407            android:enabled="true"
+407-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/a3a83df6a505ff1b30be3943dfd544b0/play-services-analytics-17.0.0/AndroidManifest.xml:42:13-35
+408            android:exported="false"
+408-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/a3a83df6a505ff1b30be3943dfd544b0/play-services-analytics-17.0.0/AndroidManifest.xml:43:13-37
+409            android:permission="android.permission.BIND_JOB_SERVICE" />
+409-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/a3a83df6a505ff1b30be3943dfd544b0/play-services-analytics-17.0.0/AndroidManifest.xml:44:13-69
+410
+411        <activity
+411-->[com.google.android.gms:play-services-appinvite:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/5ace5a4422833563e9d01921a6bcf53d/jetified-play-services-appinvite-17.0.0/AndroidManifest.xml:25:9-34:20
+412            android:name="com.google.android.gms.appinvite.PreviewActivity"
+412-->[com.google.android.gms:play-services-appinvite:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/5ace5a4422833563e9d01921a6bcf53d/jetified-play-services-appinvite-17.0.0/AndroidManifest.xml:26:13-76
+413            android:exported="true"
+413-->[com.google.android.gms:play-services-appinvite:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/5ace5a4422833563e9d01921a6bcf53d/jetified-play-services-appinvite-17.0.0/AndroidManifest.xml:27:13-36
+414            android:theme="@style/Theme.AppInvite.Preview" >
+414-->[com.google.android.gms:play-services-appinvite:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/5ace5a4422833563e9d01921a6bcf53d/jetified-play-services-appinvite-17.0.0/AndroidManifest.xml:28:13-59
+415            <intent-filter>
+415-->[com.google.android.gms:play-services-appinvite:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/5ace5a4422833563e9d01921a6bcf53d/jetified-play-services-appinvite-17.0.0/AndroidManifest.xml:29:13-33:29
+416                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+416-->[com.google.android.gms:play-services-appinvite:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/5ace5a4422833563e9d01921a6bcf53d/jetified-play-services-appinvite-17.0.0/AndroidManifest.xml:30:17-90
+416-->[com.google.android.gms:play-services-appinvite:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/5ace5a4422833563e9d01921a6bcf53d/jetified-play-services-appinvite-17.0.0/AndroidManifest.xml:30:25-87
+417
+418                <category android:name="android.intent.category.DEFAULT" />
+418-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:48:17-76
+418-->/Users/poplook/Desktop/Workspace/app/src/main/AndroidManifest.xml:48:27-73
+419            </intent-filter>
+420        </activity>
+421
+422        <receiver
+422-->[com.google.firebase:firebase-iid:20.0.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/94bb33aa82ba4f933abc3a69987472ef/firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
+423            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+423-->[com.google.firebase:firebase-iid:20.0.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/94bb33aa82ba4f933abc3a69987472ef/firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
+424            android:exported="true"
+424-->[com.google.firebase:firebase-iid:20.0.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/94bb33aa82ba4f933abc3a69987472ef/firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
+425            android:permission="com.google.android.c2dm.permission.SEND" >
+425-->[com.google.firebase:firebase-iid:20.0.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/94bb33aa82ba4f933abc3a69987472ef/firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
+426            <intent-filter>
+426-->[com.google.firebase:firebase-iid:20.0.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/94bb33aa82ba4f933abc3a69987472ef/firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
+427                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+427-->[com.google.firebase:firebase-iid:20.0.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/94bb33aa82ba4f933abc3a69987472ef/firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+427-->[com.google.firebase:firebase-iid:20.0.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/94bb33aa82ba4f933abc3a69987472ef/firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
+428            </intent-filter>
+429        </receiver>
+430
+431        <provider
+431-->[com.google.firebase:firebase-common:19.3.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3d92f1f98fd553c88aafd62c9c336e14/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+432            android:name="com.google.firebase.provider.FirebaseInitProvider"
+432-->[com.google.firebase:firebase-common:19.3.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3d92f1f98fd553c88aafd62c9c336e14/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+433            android:authorities="com.tiseno.poplook.firebaseinitprovider"
+433-->[com.google.firebase:firebase-common:19.3.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3d92f1f98fd553c88aafd62c9c336e14/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+434            android:exported="false"
+434-->[com.google.firebase:firebase-common:19.3.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3d92f1f98fd553c88aafd62c9c336e14/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+435            android:initOrder="100" />
+435-->[com.google.firebase:firebase-common:19.3.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3d92f1f98fd553c88aafd62c9c336e14/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+436
+437        <activity
+437-->[com.google.android.gms:play-services-base:17.1.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/7b1d68331e8b014d29d2c7562a4e0558/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+438            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+438-->[com.google.android.gms:play-services-base:17.1.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/7b1d68331e8b014d29d2c7562a4e0558/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+439            android:exported="false"
+439-->[com.google.android.gms:play-services-base:17.1.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/7b1d68331e8b014d29d2c7562a4e0558/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+440            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+440-->[com.google.android.gms:play-services-base:17.1.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/7b1d68331e8b014d29d2c7562a4e0558/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+441
+442        <receiver
+442-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:29:9-33:20
+443            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+443-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:30:13-85
+444            android:enabled="true"
+444-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:31:13-35
+445            android:exported="false" >
+445-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:32:13-37
+446        </receiver>
+447        <receiver
+447-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:34:9-42:20
+448            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+448-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:35:13-100
+449            android:enabled="true"
+449-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:36:13-35
+450            android:exported="true"
+450-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:37:13-36
+451            android:permission="android.permission.INSTALL_PACKAGES" >
+451-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:38:13-69
+452            <intent-filter>
+452-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:39:13-41:29
+453                <action android:name="com.android.vending.INSTALL_REFERRER" />
+453-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:40:17-79
+453-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:40:25-76
+454            </intent-filter>
+455        </receiver>
+456
+457        <service
+457-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:44:9-47:40
+458            android:name="com.google.android.gms.measurement.AppMeasurementService"
+458-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:45:13-84
+459            android:enabled="true"
+459-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:46:13-35
+460            android:exported="false" />
+460-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:47:13-37
+461        <service
+461-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:48:9-52:72
+462            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+462-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:49:13-87
+463            android:enabled="true"
+463-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:50:13-35
+464            android:exported="false"
+464-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:51:13-37
+465            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+465-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3f4f7c0dcc8dc0afd450a13f3b7c7724/play-services-measurement-17.2.2/AndroidManifest.xml:52:13-69
+466        <activity
+466-->[com.google.android.gms:play-services-ads-lite:18.3.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/d8e229c84c976d0c583e2e0791824b87/play-services-ads-lite-18.3.0/AndroidManifest.xml:29:9-33:64
+467            android:name="com.google.android.gms.ads.AdActivity"
+467-->[com.google.android.gms:play-services-ads-lite:18.3.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/d8e229c84c976d0c583e2e0791824b87/play-services-ads-lite-18.3.0/AndroidManifest.xml:30:13-65
+468            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+468-->[com.google.android.gms:play-services-ads-lite:18.3.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/d8e229c84c976d0c583e2e0791824b87/play-services-ads-lite-18.3.0/AndroidManifest.xml:31:13-122
+469            android:exported="false"
+469-->[com.google.android.gms:play-services-ads-lite:18.3.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/d8e229c84c976d0c583e2e0791824b87/play-services-ads-lite-18.3.0/AndroidManifest.xml:32:13-37
+470            android:theme="@android:style/Theme.Translucent" />
+470-->[com.google.android.gms:play-services-ads-lite:18.3.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/d8e229c84c976d0c583e2e0791824b87/play-services-ads-lite-18.3.0/AndroidManifest.xml:33:13-61
+471
+472        <provider
+472-->[com.google.android.gms:play-services-ads-lite:18.3.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/d8e229c84c976d0c583e2e0791824b87/play-services-ads-lite-18.3.0/AndroidManifest.xml:35:9-39:39
+473            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+473-->[com.google.android.gms:play-services-ads-lite:18.3.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/d8e229c84c976d0c583e2e0791824b87/play-services-ads-lite-18.3.0/AndroidManifest.xml:36:13-76
+474            android:authorities="com.tiseno.poplook.mobileadsinitprovider"
+474-->[com.google.android.gms:play-services-ads-lite:18.3.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/d8e229c84c976d0c583e2e0791824b87/play-services-ads-lite-18.3.0/AndroidManifest.xml:37:13-73
+475            android:exported="false"
+475-->[com.google.android.gms:play-services-ads-lite:18.3.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/d8e229c84c976d0c583e2e0791824b87/play-services-ads-lite-18.3.0/AndroidManifest.xml:38:13-37
+476            android:initOrder="100" />
+476-->[com.google.android.gms:play-services-ads-lite:18.3.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/d8e229c84c976d0c583e2e0791824b87/play-services-ads-lite-18.3.0/AndroidManifest.xml:39:13-36
+477
+478        <meta-data
+478-->[com.google.android.gms:play-services-basement:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/da925ae1283acdfe049c2baac6751962/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+479            android:name="com.google.android.gms.version"
+479-->[com.google.android.gms:play-services-basement:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/da925ae1283acdfe049c2baac6751962/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+480            android:value="@integer/google_play_services_version" />
+480-->[com.google.android.gms:play-services-basement:17.0.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/da925ae1283acdfe049c2baac6751962/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+481        <!--
+482         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+483         with the application context. This config is merged in with the host app's manifest,
+484         but there can only be one provider with the same authority activated at any given
+485         point; so if the end user has two or more different apps that use Facebook SDK, only the
+486         first one will be able to use the provider. To work around this problem, we use the
+487         following placeholder in the authority to identify each host application as if it was
+488         a completely different provider.
+489        -->
+490        <provider
+490-->[com.facebook.android:facebook-core:5.15.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/63a6cb825d792c683ec17a02a400f8cf/jetified-facebook-core-5.15.3/AndroidManifest.xml:39:9-42:40
+491            android:name="com.facebook.internal.FacebookInitProvider"
+491-->[com.facebook.android:facebook-core:5.15.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/63a6cb825d792c683ec17a02a400f8cf/jetified-facebook-core-5.15.3/AndroidManifest.xml:40:13-70
+492            android:authorities="com.tiseno.poplook.FacebookInitProvider"
+492-->[com.facebook.android:facebook-core:5.15.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/63a6cb825d792c683ec17a02a400f8cf/jetified-facebook-core-5.15.3/AndroidManifest.xml:41:13-72
+493            android:exported="false" />
+493-->[com.facebook.android:facebook-core:5.15.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/63a6cb825d792c683ec17a02a400f8cf/jetified-facebook-core-5.15.3/AndroidManifest.xml:42:13-37
+494
+495        <receiver
+495-->[com.facebook.android:facebook-core:5.15.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/63a6cb825d792c683ec17a02a400f8cf/jetified-facebook-core-5.15.3/AndroidManifest.xml:44:9-50:20
+496            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+496-->[com.facebook.android:facebook-core:5.15.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/63a6cb825d792c683ec17a02a400f8cf/jetified-facebook-core-5.15.3/AndroidManifest.xml:45:13-86
+497            android:exported="false" >
+497-->[com.facebook.android:facebook-core:5.15.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/63a6cb825d792c683ec17a02a400f8cf/jetified-facebook-core-5.15.3/AndroidManifest.xml:46:13-37
+498            <intent-filter>
+498-->[com.facebook.android:facebook-core:5.15.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/63a6cb825d792c683ec17a02a400f8cf/jetified-facebook-core-5.15.3/AndroidManifest.xml:47:13-49:29
+499                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+499-->[com.facebook.android:facebook-core:5.15.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/63a6cb825d792c683ec17a02a400f8cf/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:17-95
+499-->[com.facebook.android:facebook-core:5.15.3] /Users/poplook/.gradle/caches/transforms-2/files-2.1/63a6cb825d792c683ec17a02a400f8cf/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:25-92
+500            </intent-filter>
+501        </receiver>
+502
+503        <service
+503-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/f9a2451645c34ac8fa602191700d950c/transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+504            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+504-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/f9a2451645c34ac8fa602191700d950c/transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+505            android:exported="false" >
+505-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/f9a2451645c34ac8fa602191700d950c/transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+506            <meta-data
+506-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/f9a2451645c34ac8fa602191700d950c/transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+507                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+507-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/f9a2451645c34ac8fa602191700d950c/transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+508                android:value="cct" />
+508-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/f9a2451645c34ac8fa602191700d950c/transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+509        </service>
+510        <service
+510-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/545dc7eb6aafd76b6a32df7de6eff3d2/transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+511            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+511-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/545dc7eb6aafd76b6a32df7de6eff3d2/transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+512            android:exported="false"
+512-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/545dc7eb6aafd76b6a32df7de6eff3d2/transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+513            android:permission="android.permission.BIND_JOB_SERVICE" >
+513-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/545dc7eb6aafd76b6a32df7de6eff3d2/transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+514        </service>
+515
+516        <receiver
+516-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/545dc7eb6aafd76b6a32df7de6eff3d2/transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+517            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+517-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/545dc7eb6aafd76b6a32df7de6eff3d2/transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+518            android:exported="false" />
+518-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/545dc7eb6aafd76b6a32df7de6eff3d2/transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+519
+520        <provider
+520-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3ee9b8f8352cc2aa8fcd710a79352468/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+521            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+521-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3ee9b8f8352cc2aa8fcd710a79352468/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+522            android:authorities="com.tiseno.poplook.lifecycle-process"
+522-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3ee9b8f8352cc2aa8fcd710a79352468/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+523            android:exported="false"
+523-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3ee9b8f8352cc2aa8fcd710a79352468/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+524            android:multiprocess="true" />
+524-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/poplook/.gradle/caches/transforms-2/files-2.1/3ee9b8f8352cc2aa8fcd710a79352468/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+525    </application>
+526
+527</manifest>
